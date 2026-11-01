@@ -1,5 +1,9 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sany's Nails</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Sany's Nails – Nagelstudio in Neunkirchen. Gel- und Acrylnägel, Shellack, Maniküre und Pediküre. Termine nach Vereinbarung.">
 <style>
 @font-face { font-family: "Syne"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/syne-latin-600-normal.woff2") format("woff2"); }
@@ -42,6 +46,8 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
 html { scroll-behavior: smooth; }
 body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 1rem; line-height: 1.65; overflow-x: hidden; }
 img { display: block; max-width: 100%; }
@@ -239,7 +245,8 @@ footer p { margin: 0; }
   * { transition: none !important; }
 }
 </style>
-
+</head>
+<body>
 <header class="top">
   <div class="wrap">
     <a class="logo" href="#start">Sany's <span>Nails</span></a>
@@ -571,3 +578,5 @@ footer p { margin: 0; }
   update();
 })();
 </script>
+</body>
+</html>
